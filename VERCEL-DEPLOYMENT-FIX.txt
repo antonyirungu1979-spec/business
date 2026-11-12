@@ -1,0 +1,13 @@
+NAISADA FURNITURE - VERCEL DEPLOYMENT
+
+IMPORTANT: Upload the CONTENTS of this ZIP to the ROOT of your GitHub repository.
+Do not upload the enclosing project folder as a nested folder.
+The repository root must contain package.json, vite.config.ts, vercel.json, and the src/ directory.
+The required TanStack Start router entry is src/router.tsx.
+
+Vercel Project Settings:
+- Root Directory: ./ (repository root; NOT src)
+- Build Command: bun run build (or the package manager's install/build defaults)
+- Output Directory: leave blank / framework default
+
+If the GitHub repository root currently has no src folder, the source files have not been uploaded to the repository root.
